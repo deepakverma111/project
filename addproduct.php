@@ -62,7 +62,7 @@ $brandlist=$conn->query($branddata);
 <h1>Hello Mr. <?php  echo $_SESSION['information']['user_fname'] . " " . $_SESSION['information']['user_lname'] ?></h1>
         <h2><a href="Product.php"> Product </a> | <a href="Category.php"> Category </a> | <a href="Brand.php"> Brand </a>
     | <a href="manufacture.php"> Manufecture </a> | <a href="registerlogout.php"> Logout </a> | </h2><br><br>
-    <h1>Product List</h1>
+    <h1>All Product List</h1>
 
     <form method="post" enctype="multipart/form-data">
     <label for="demo">Product Name : </label><input type="text" name="productname" id="demo" placeholder="enter product name"><br><br>
